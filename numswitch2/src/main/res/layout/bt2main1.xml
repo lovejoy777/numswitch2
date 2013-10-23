@@ -84,13 +84,7 @@
         android:layout_below="@+id/switch4"
         android:text="" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/num1mactext"
-        android:id="@+id/num1savedaddress"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/bottomtext" />
+
 
     <TextView
         android:layout_width="wrap_content"
