@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abouttitle"
+        android:textSize="@dimen/title"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/titleText"
+        android:textStyle="bold"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutsubhead"
+        android:textSize="@dimen/subhead" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abouttext1"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abouttext2"
+        android:id="@+id/textView4"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abouttext3"
+        android:id="@+id/textView5"
+        android:layout_gravity="left|center_vertical" />
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    //Title
+
+    <TextView
+        android:id="@+id/tvmac_address_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="center_horizontal"
+        android:text="num mac adresses"
+        android:textColor="@color/titleText"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+
+    //num1 editText
+
+    <EditText
+        android:id="@+id/num1MacET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvmac_address_head"
+        android:layout_margin="30dp"
+        android:hint="num 1 mac address here"
+        android:text=""
+        android:textSize="@dimen/subhead" />
+
+
+    //num1 send button
+
+    <Button
+
+        android:id="@+id/num1MacBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/num1MacET"
+        android:text="Save"
+        android:onClick="sendMessage" />
+
+
+    //num2 editText
+
+    <EditText
+        android:id="@+id/num2MacET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/num1MacET"
+        android:layout_below="@+id/num1MacBtn"
+        android:hint="num 2 mac address here"
+        android:text=""
+        android:textSize="@dimen/subhead" />
+
+
+    //num2 send button
+
+    <Button
+        android:id="@+id/num2MacBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/num2MacET"
+        android:text="Save" />
+
+
+    //num3 editText
+
+    <EditText
+        android:id="@+id/num3MacET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/num2MacET"
+        android:layout_below="@+id/num2MacBtn"
+        android:hint="num 3 mac address here"
+        android:text=""
+        android:textSize="@dimen/subhead" />
+
+    //num3 send button
+
+    <Button
+        android:id="@+id/num3MacBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/num3MacET"
+        android:text="Save" />
+
+    //num4 editText
+
+    <EditText
+        android:id="@+id/num4MacET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/num3MacET"
+        android:layout_below="@+id/num3MacBtn"
+        android:hint="num 4 mac address here"
+        android:text=""
+        android:textSize="@dimen/subhead" />
+
+    //num4 send button
+
+    <Button
+        android:id="@+id/num4MacBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/num4MacET"
+        android:text="Save" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvChange"
+        android:layout_below="@+id/num4MacBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13dp"
+        android:layout_alignRight="@+id/num4MacBtn" />
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumSwitch</string>
+    <string name="action_settings">Settings</string>
+
+    // layout Titles.
+    <string name="hometitle">Home</string>
+    <string name="onetitle">num i</string>
+    <string name="twotitle">num ii</string>
+    <string name="threetitle">num iii</string>
+    <string name="fourtitle">num iiii</string>
+    <string name="overviewtitle">Overview</string>
+    <string name="setuptitle">Setup</string>
+    <string name="abouttitle">About</string>
+    <string name="bluetoothsynctitle">Bluetooth Setup</string>
+
+    // layout subheadings.
+    <string name="homesubhead">Pick a num</string>
+    <string name="onesubhead">Pick an output number</string>
+    <string name="twosubhead">Pick an output number</string>
+    <string name="threesubhead">Pick an output number</string>
+    <string name="foursubhead">Pick an output number</string>
+    <string name="overviewsubhead">About this app</string>
+    <string name="setupsubhead">Lets get going</string>
+    <string name="aboutsubhead">Thanks for using a num product</string>
+    <string name="bluetoothsyncsubhead">Click on Setup button for instructions</string>
+
+    // Home buttons text.
+    <string name="homebuttononetext">num i</string>
+    <string name="homebuttontwotext">num ii</string>
+    <string name="homebuttonthreetext">num iii</string>
+    <string name="homebuttonfourtext">num iiii</string>
+    <string name="homebuttonoverviewtext">Overview</string>
+    <string name="homebuttonsetuptext">Setup</string>
+    <string name="homebuttonabouttext">About</string>
+    <string name="bluetoothbuttontext">Bluetooth Setup</string>
+
+    // Object one switches.
+    <string name="oneswitchone">One</string>
+    <string name="oneswitchtwo">Two</string>
+    <string name="oneswitchthree">Three</string>
+    <string name="oneswitchfour">Four</string>
+
+    // Object two switches.
+    <string name="twoswitchone">Five</string>
+    <string name="twoswitchtwo">Six</string>
+    <string name="twoswitchthree">Seven</string>
+    <string name="twoswitchfour">Eight</string>
+
+    // Object three switches.
+    <string name="threeswitchone">Nine</string>
+    <string name="threeswitchtwo">Ten</string>
+    <string name="threeswitchthree">Eleven</string>
+    <string name="threeswitchfour">Twelve</string>
+
+    // Object four switches.
+    <string name="fourswitchone">Thirteen</string>
+    <string name="fourswitchtwo">Fourteen</string>
+    <string name="fourswitchthree">Fifteen</string>
+    <string name="fourswitchfour">Sixteen</string>
+
+    // overview main text.
+    <string name="overviewtext">num switch is an app to be used in conjunction with the num range of accessories/moduals. \nThe num app uses bluetooth technology to communicate with the num range of accessories. \nPlease read the setup for information on the set up procedure. </string>
+
+    // setup main text
+    <string name="setuptext">1. Assign your num modual outputs with a different number and make a note of the relevant bluetooth ID for each output. \n2. connect the moduals to a 5v-9V DC power supply.\n3. Load up your num switch app and click on the bluetooth Sync button on the home screen. \n4. Enter the bluetooth ID number supplied with each modual in the relevant bluetooth ID field. \n5. Then press the Sync button. \n6. Now when you pick a num from the home screen you can turn on/off the relevant output number.</string>
+
+    // about main text
+    <string name="abouttext">num switch is a num Product</string>
+    <string name="abouttext1">Developed By Steve Lovejoy (aka Lovejoy777)</string>
+    <string name="abouttext2">Version Number: Development 1.0.0</string>
+    <string name="abouttext3">Build Date: 03/10/2013</string>
+
+    <string name="addressnum1">00:15:FF:F2:19:5F</string>
+    <string name="num1mactext">00:15:FF:F2:19:5F</string>
+
+
+</resources>

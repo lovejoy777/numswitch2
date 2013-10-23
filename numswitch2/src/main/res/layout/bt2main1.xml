@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="num i"
+        android:textSize="@dimen/title"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/titleText"
+        android:id="@+id/textView1" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onesubhead"
+        android:textSize="@dimen/subhead"
+        android:id="@+id/subHead"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true" />
+
+    // switch 1
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relay One"
+        android:textSize="30sp"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/subHead"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp" />
+
+    // switch 2
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relay Two"
+        android:textSize="30sp"
+        android:id="@+id/switch2"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentRight="true"
+        />
+
+    // switch 3
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relay Three"
+        android:textSize="30sp"
+        android:id="@+id/switch3"
+        android:layout_below="@+id/switch2"
+        android:layout_alignParentRight="true"
+        />
+
+    // switch 4
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relay Four"
+        android:textSize="30sp"
+        android:id="@+id/switch4"
+        android:layout_below="@+id/switch3"
+        android:layout_alignParentRight="true"
+         />
+
+    // Arduino textView
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/switch4"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/num1mactext"
+        android:id="@+id/num1savedaddress"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bottomtext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="num1 mac address is:     "
+        android:id="@+id/bottomtext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".main"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hometitle"
+        android:textSize="@dimen/title"
+        android:textColor="@color/titleText"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homesubhead"
+        android:textSize="@dimen/subhead"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/numBt1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+
+    // num Button 1
+
+    <Button
+        android:id="@+id/numBt1"
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttononetext"
+        android:textSize="@dimen/mainbuttontext"
+        android:layout_above="@+id/tutorial3"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tutorial3" />
+
+    // num Button 2
+
+    <Button
+        android:id="@+id/numBt2"
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttontwotext"
+        android:textSize="@dimen/mainbuttontext"
+        android:layout_above="@+id/tutorial4"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/tutorial4" />
+
+    // num Button 3
+
+    <Button
+        android:id="@+id/tutorial3"
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttonthreetext"
+        android:textSize="@dimen/mainbuttontext"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_above="@+id/btmain"
+        android:layout_alignParentLeft="true" />
+
+    // num Button 4
+
+    <Button
+        android:id="@+id/tutorial4"
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttonfourtext"
+        android:textSize="@dimen/mainbuttontext"
+        android:layout_above="@+id/btmain"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentRight="true" />
+
+    // pair devices Button
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pair Devices"
+        android:textStyle="bold"
+        android:id="@+id/btmain"
+        android:textSize="@dimen/smallmainbuttontext"
+        android:textColor="@color/titleText"
+        android:layout_above="@+id/macAddressBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    //  num mac address button
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mac address"
+        android:textStyle="bold"
+        android:id="@+id/macAddressBtn"
+        android:textSize="@dimen/smallmainbuttontext"
+        android:textColor="@color/titleText"
+        android:layout_above="@+id/overview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+
+    //overview
+
+    <Button
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttonoverviewtext"
+        android:id="@+id/overview"
+        android:textSize="@dimen/smallmainbuttontext"
+        android:layout_gravity="center"
+        android:layout_above="@+id/setup"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentLeft="true" />
+
+    // Setup Button
+
+    <Button
+
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttonsetuptext"
+        android:id="@+id/setup"
+        android:layout_gravity="center"
+        android:textSize="@dimen/smallmainbuttontext"
+        android:layout_above="@+id/about"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentLeft="true" />
+
+    // About Button
+
+    <Button
+        android:layout_width="@dimen/aboutbutwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/homebuttonabouttext"
+        android:id="@+id/about"
+        android:layout_gravity="center"
+        android:textSize="@dimen/smallmainbuttontext"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true" />
+
+    // Image view Bottom
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/splash_back"
+        android:contentDescription="numLogo"
+        android:layout_below="@+id/btmain"
+        android:layout_alignLeft="@+id/tutorial4"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

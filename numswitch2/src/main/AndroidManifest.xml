@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lovejoy777_num_switch2"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.menu"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.BT2Main"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.BT2MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.TutorialTwo"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.TUTORIALTWO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.TutorialThree"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.TUTORIALTHREE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.TutorialFour"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.TUTORIALFOUR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.OverView"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.OVERVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.SetUp"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.SETUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.About"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        //BT Pair Devices
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.BluetoothMain"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.BTMAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        //mac address button
+
+        <activity
+            android:name="com.lovejoy777_num_switch2.MacAddress"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.lovejoy777_num_switch2.MACADDRESSBTN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+    </application>
+
+</manifest>

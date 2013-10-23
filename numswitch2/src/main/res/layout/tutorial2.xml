@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twotitle"
+        android:textSize="@dimen/title"
+        android:textColor="@color/titleText"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twosubhead"
+        android:textSize="@dimen/subhead" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twoswitchone"
+        android:textSize="@dimen/switchheight"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="35dp" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twoswitchtwo"
+        android:id="@+id/switch2"
+        android:layout_gravity="left|center_vertical"
+        android:textSize="@dimen/switchheight" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twoswitchthree"
+        android:id="@+id/switch3"
+        android:layout_gravity="left|center_vertical"
+        android:checked="false"
+        android:textSize="@dimen/switchheight" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twoswitchfour"
+        android:id="@+id/switch4"
+        android:layout_gravity="left|center_vertical"
+        android:textSize="@dimen/switchheight" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@drawable/splash_back" />
+
+</LinearLayout>
