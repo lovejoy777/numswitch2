@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/numswitch2/numswitch2.iml" filepath="$PROJECT_DIR$/numswitch2/numswitch2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numswitch2/numswitch2-numswitch2.iml" filepath="$PROJECT_DIR$/numswitch2/numswitch2-numswitch2.iml" />
       <module fileurl="file://$PROJECT_DIR$/numswitch2Project.iml" filepath="$PROJECT_DIR$/numswitch2Project.iml" />
     </modules>
   </component>

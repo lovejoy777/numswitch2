@@ -26,13 +26,10 @@ import java.util.UUID;
 /**
  * Created by lovejoy on 13/10/13.
  */
-//00:15:FF:F2:19:5F
-
 
 public class BT2Main extends Activity {
     private static final String TAG = "num i";
 
-    Intent intent = getIntent();
     Switch switch1;
     Switch switch2;
     Switch switch3;
@@ -47,12 +44,13 @@ public class BT2Main extends Activity {
 
     private ConnectedThread mConnectedThread;
 
-    //00:15:FF:F2:19:5F
+    // Default Mac Address 00:15:FF:F2:19:5F
+
+
     // SPP UUID service
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     // MAC-address of Bluetooth module (you must edit this line)
-    // static String address = address;
-    public String address = intent.getStringExtra(MacAddress.EXTRA_MESSAGE);
+    private static String address = "00:15:FF:F2:19:5F";
 
     /**
      * Called when the activity is first created.
@@ -299,10 +297,9 @@ public class BT2Main extends Activity {
                 tmpOut = socket.getOutputStream();
             } catch (IOException e) {
             }
+
             mmInStream = tmpIn;
             mmOutStream = tmpOut;
-
-
         }
         // ends public ConnectedThread
 

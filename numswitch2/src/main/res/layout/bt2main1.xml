@@ -47,8 +47,7 @@
         android:textSize="30sp"
         android:id="@+id/switch2"
         android:layout_below="@+id/switch1"
-        android:layout_alignParentRight="true"
-        />
+        android:layout_alignParentRight="true" />
 
     // switch 3
 
@@ -59,8 +58,7 @@
         android:textSize="30sp"
         android:id="@+id/switch3"
         android:layout_below="@+id/switch2"
-        android:layout_alignParentRight="true"
-        />
+        android:layout_alignParentRight="true" />
 
     // switch 4
 
@@ -71,8 +69,7 @@
         android:textSize="30sp"
         android:id="@+id/switch4"
         android:layout_below="@+id/switch3"
-        android:layout_alignParentRight="true"
-         />
+        android:layout_alignParentRight="true" />
 
     // Arduino textView
 
@@ -84,14 +81,5 @@
         android:layout_below="@+id/switch4"
         android:text="" />
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="num1 mac address is:     "
-        android:id="@+id/bottomtext"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>
